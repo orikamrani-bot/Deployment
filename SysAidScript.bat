@@ -5,9 +5,9 @@ MsiExec.exe /X{FC5E1D1D-6D3F-4844-A937-567D589F655E} /q /passive
 
 "C:\Program Files\SysAid\uninstallagent.cmd"
 
-del "%userprofile%\Desktop\SysAid.lnk"
-del "C:\Users\Public\Desktop\SysAid.lnk"
-del "%userprofile%\Desktop\SysAid.lnk"
+del "%userprofile%\Desktop\HelpDesk.Ink"
+del "C:\Users\Public\Desktop\HelpDesk.lnk"
+del "%userprofile%\Desktop\HelpDesk.lnk"
 
 sc stop SysAidAgent
 sc delete SysAidAgent
