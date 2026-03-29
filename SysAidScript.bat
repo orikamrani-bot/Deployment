@@ -19,7 +19,7 @@ taskkill /F /IM SysAidSM.exe
 rd /S /Q "C:\Program Files\SysAid"
 rd /S /Q "C:\Program Files (x86)\SysAid"
 
-start /wait "" "c:\temp\Downloads\SysAidAgent.exe" /VERYSILENT /URL https://wizo.sysaidit.com /account wizo /serial 34A24AB423CA87B7 /AllowRemoteControl N /SubmitSRShortcut "HelpDesk" /HotKey 634 /Interval 30 /ConfirmRC N /RandomMachineID N /AllowSubmitSR Y
+start /wait "" "c:\temp\SysAidAgent.exe" /VERYSILENT /URL https://wizo.sysaidit.com /account wizo /serial 34A24AB423CA87B7 /AllowRemoteControl N /SubmitSRShortcut "HelpDesk" /HotKey 634 /Interval 30 /ConfirmRC N /RandomMachineID N /AllowSubmitSR Y
 
 REM. > "C:\Program Files\SysAid\Flag.txt"
 
