@@ -1,0 +1,1 @@
+c:\temp\WindowsSensor.exe /install /quiet /norestart PROXYDISABLE=1 ProvNoWait=1 CID=EC0B535621CD413098C23616D9D1666B-E0
